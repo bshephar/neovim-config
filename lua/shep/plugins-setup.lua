@@ -37,7 +37,8 @@ return packer.startup(function(use)
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
 	use({ "catppuccin/nvim", as = "catppuccin" })
-
+--	use({ "folke/tokyonight.nvim", as = "tokyonight" })
+	use({"marko-cerovac/material.nvim", as = "material" })
 	use({ "Yazeed1s/oh-lucy.nvim", as = "oh-lucy"})
 	use({ "navarasu/onedark.nvim", as = "onedark" })
 	use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
