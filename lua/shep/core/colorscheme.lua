@@ -6,7 +6,7 @@
 --})
 -- require("catppuccin").load()
 
-
+-- onedark
 local status, _ = pcall(vim.cmd, "colorscheme onedark")
  require('onedark').setup  {
     -- Main options --
